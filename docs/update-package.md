@@ -50,6 +50,16 @@ vpm-repos に登録されているパッケージを新しいバージョンに�
 
 > zip は必ず vpm-repos の Releases に置き、`vpm.json` の `url` もそこを指すこと（配布元リポジトリの URL は使わない）。
 
+## パッケージ ID を変更する場合
+
+既存パッケージの `name` を別の ID に**上書きしない**。VPM では別パッケージとして扱われるため、次の方針で対応する。
+
+1. 配布元で新しいパッケージ ID の zip を作成する
+2. `vpm.json` には新しいパッケージ ID を**別エントリとして追加**する
+3. 旧パッケージ ID は過去バージョンを残したまま維持する
+
+例: `com.suzufactory.scm` を `com.suzufactory.shaders` に変更する場合でも、既存の `com.suzufactory.scm` の履歴は残し、新しいリリースから `com.suzufactory.shaders` を追加する。
+
 ## 旧 Release の削除（任意）
 
 過去バージョンの Release（とタグ）の削除は、**明示的に指示されたときのみ**行う。更新手順の一部として自動的には行わない。
