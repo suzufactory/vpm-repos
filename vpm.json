@@ -238,6 +238,23 @@
     },
     "com.suzufactory.scm": {
       "versions": {
+        "0.7.1": {
+          "name": "com.suzufactory.scm",
+          "displayName": "SuzuFactory Shaders",
+          "version": "0.7.1",
+          "description": "Shader Core modules by SuzuFactory.",
+          "unity": "2022.3",
+          "author": {
+            "name": "SuzuFactory"
+          },
+          "license": "MIT",
+          "vpmDependencies": {
+            "jp.lilxyzw.shadercore": ">=0.1.0",
+            "jp.lilxyzw.nontoon": ">=0.1.0"
+          },
+          "url": "https://github.com/suzufactory/vpm-repos/releases/download/scm-0.7.1/com.suzufactory.scm.zip",
+          "zipSHA256": "252893e997dc050ffcf6ab4cfa48817d46b178767a26444a0055808a34b451cf"
+        },
         "0.7.0": {
           "name": "com.suzufactory.scm",
           "displayName": "SuzuFactory Shaders",
