@@ -6,6 +6,18 @@
   "packages": {
     "com.suzufactory.hikari": {
       "versions": {
+        "2.7.7": {
+          "name": "com.suzufactory.hikari",
+          "displayName": "Hikari",
+          "version": "2.7.7",
+          "unity": "2022.3",
+          "author": {
+            "name": "SuzuFactory",
+            "url": "https://suzufactory.com"
+          },
+          "url": "https://github.com/suzufactory/vpm-repos/releases/download/hikari-2.7.7/com.suzufactory.hikari.zip",
+          "zipSHA256": "028c68098dfab0f7b84e9335e1df0bd7c0e2630dc860b750aaebe5a0d8549d66"
+        },
         "2.6.14": {
           "name": "com.suzufactory.hikari",
           "displayName": "Hikari",
